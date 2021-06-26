@@ -1,0 +1,26 @@
+.fas{
+    font-size: 200px;
+    margin: 40px;
+    color: rgb(2, 2, 41);
+}
+.rolling{
+    animation-name: shake;
+    animation-duration: 1000ms;
+}
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0) rotate3d(0, 0, 1, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(4px, 0, 0) rotate3d(0, 0, 1, -5deg);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-6px, 0, 0) rotate3d(0, 0, 1, 3deg);
+    }
+  
+    40%, 60% {
+      transform: translate3d(6px, 0, 0) rotate3d(0, 0, 1, -3deg);
+    }
+  }

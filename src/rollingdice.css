@@ -1,0 +1,19 @@
+.rolling-dice-dice{
+    display: flex;
+    justify-content: center;
+}
+.rolling-dice-button{
+    font-size: 20px;
+    color: rgb(2, 2, 41);
+    /* padding: 10px 40px; */
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    border-color: rgb(2, 2, 41);
+    border-radius: 8px;
+}
+.rolling-dice-button:hover{
+    background-color: rgb(2, 2, 41);
+    color: white;
+    cursor: pointer;
+}
